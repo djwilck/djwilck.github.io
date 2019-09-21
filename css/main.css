@@ -69,4 +69,7 @@ main {
     .short-line { 
         display: inline;
     }
+    #portait img {
+        top: 2%;
+    }
 }
