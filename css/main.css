@@ -18,6 +18,7 @@ a:hover {
     padding: 1px;
     padding-left: 1%;
     margin: 1% 2.5% 1%;   
+    padding-right: 15%;
 }
 
 footer {
@@ -42,7 +43,7 @@ footer a {
 #portrait img {
     box-shadow: 2px 2px 15px #191919, -2px 2px 15px #191919, -2px -2px 15px #191919, 2px -2px 15px #191919;
     position: absolute;
-    right: 4%;
+    right: 2.5%;
     top: 4%;
     
 }
@@ -59,5 +60,9 @@ footer a {
 
 main {
     padding: 0 5% 0;
-    line-height: 25px;
+    line-height: 25px;   
+}
+
+main h2{
+    padding-right: 200px;
 }
