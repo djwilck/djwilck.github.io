@@ -16,8 +16,8 @@ a:hover {
     color: #92AFD7;
 }
 
-#myName,
-#myName h1 {
+#headerName,
+#headerName h1 {
     background-color: #395B50;
     color: #CED0CE;
     border-radius: 10px;
@@ -39,7 +39,7 @@ footer a {
     color: #CED0CE
 }
 
-#content {
+#mainContent {
     color: #191919;
     font-family: Verdana, Geneva, sans-serif;
     width: 100%;
@@ -53,7 +53,7 @@ footer a {
     
 }
 
-#portalTitle {
+#mainTitle {
     border-bottom: 1px solid #191919;
 
 }
