@@ -44,7 +44,7 @@ footer a {
     position: absolute;
     right: 4%;
     top: 4%;
-    height: 200px;
+    height: 170px;
 }
 
 #mainTitle {
@@ -70,7 +70,5 @@ main {
     .short-line { 
         display: inline;
     }
-    #portait img {
-        height: 175px;
-    }
+
 }
