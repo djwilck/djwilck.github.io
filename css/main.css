@@ -70,6 +70,8 @@ main {
         display: inline;
     }
     #portait img {
+        position: absolute;
+        right: 4%;
         top: 2%;
     }
 }
