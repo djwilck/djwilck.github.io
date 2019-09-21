@@ -1,4 +1,9 @@
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #191919;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -11,13 +16,14 @@ a:hover {
     color: #92AFD7;
 }
 
-#headerName, #headerName h1 {
+#headerName,
+#headerName h1 {
     background-color: #395B50;
     color: #CED0CE;
     border-radius: 10px;
     padding: 1px;
     padding-left: 1%;
-    margin: 1% 2.5% 1%;   
+    margin: 1% 2.5% 1%;
 }
 
 footer {
@@ -59,15 +65,15 @@ footer a {
 
 main {
     padding: 0 5% 0;
-    line-height: 25px;   
+    line-height: 25px;
 }
 
-.short-line { 
-    display: block; 
+.short-line {
+    display: block;
 }
 
-@media screen and (min-width: 768px){
-    .short-line { 
+@media screen and (min-width: 768px) {
+    .short-line {
         display: inline;
     }
 
