@@ -10,13 +10,13 @@ let months = ["January", "February", "March", "April", "May", "June", "July", "A
 
 let d = new Date(document.lastModified);
 let day = d.getDate()
-let month = d.getMonth()
+let month = d.getMonth() + 1
 let year = d.getFullYear()
 let hour = addZero(d.getHours());
 let minute = addZero(d.getMinutes());
 let second = addZero(d.getSeconds());
 
-let lastUpdated = day + "/" + month + "/" + year + " " + hour + ":" + minute + ":" + second;
+let lastUpdated = month + "/" + day + "/" + year + " " + hour + ":" + minute + ":" + second;
 
 
 document.getElementById("updated").textContent = "Last Updated: " + lastUpdated;
