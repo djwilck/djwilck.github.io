@@ -1,9 +1,4 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     color: #191919;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
@@ -16,8 +11,7 @@ a:hover {
     color: #92AFD7;
 }
 
-#headerName,
-#headerName h1 {
+#headerName, #headerName h1 {
     background-color: #395B50;
     color: #CED0CE;
     border-radius: 10px;
