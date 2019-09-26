@@ -5,7 +5,7 @@ h4,
 h5,
 h6 {
     color: #191919;
-    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-family: 'Lora', serif;
 }
 
 a {
@@ -16,21 +16,25 @@ a:hover {
     color: #92AFD7;
 }
 
-#headerName,
-#headerName h1 {
+header,
+h1 {
     background-color: #395B50;
     color: #CED0CE;
-    border-radius: 10px;
     padding: 1px;
     padding-left: 1%;
     margin: 1% 2.5% 1%;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.5rem;
 }
 
 footer {
     background-color: #395B50;
     color: #CED0CE;
     text-align: center;
-    border-radius: 10px;
     margin: 1% 2.5% 1%;
 
 }
@@ -45,12 +49,9 @@ footer a {
     width: 100%;
 }
 
-#portrait img {
-    box-shadow: 2px 2px 15px #191919, -2px 2px 15px #191919, -2px -2px 15px #191919, 2px -2px 15px #191919;
-    position: absolute;
-    right: 4%;
-    top: 4%;
-    height: 170px;
+header img {
+    width: 170px;
+    height: auto;
 }
 
 #mainTitle {
@@ -70,11 +71,4 @@ main {
 
 .short-line {
     display: block;
-}
-
-@media screen and (min-width: 768px) {
-    .short-line {
-        display: inline;
-    }
-
 }
