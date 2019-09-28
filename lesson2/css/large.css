@@ -1,0 +1,32 @@
+@media only screen and (min-width: 60em) {
+    header {
+        width: 74%;
+
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 75%;
+    }
+
+    section:nth-child(1) {
+        margin: 5% 2.3% 5% 2.3%;
+        width: 95%;
+    }
+
+    section:nth-child(2) {
+        margin: 5% 2.3% 5% 2.3%;
+        width: 95%;
+    }
+
+    section:nth-child(3) {
+        grid-column: span 1;
+        margin: 5% 2.3% 5% 2.3%;
+        width: 95%;
+    }
+
+    section h2 {
+        top: -20px;
+
+    }
+}

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+body {
+    font-size: 1rem;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+header {
+    background-color: #395B50;
+    color: #CED0CE;
+    text-align: center;
+    margin: auto;
+    line-height: 2em;
+    padding: .1em 0 .1em 0;
+}
+
+h1,
+h2 {
+    font-family: 'Lora', serif;
+    padding: 0 2% 0 2%;
+}
+
+main {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    margin: auto;
+
+}
+
+section {
+    border: 1px solid #191919;
+    margin: 5% 2.5% 0 2.5%;
+    padding: 0 0 0;
+    border-radius: 12px;
+    width: 95%;
+
+}
+
+section h2 {
+    background-color: #395B50;
+    color: #CED0CE;
+    position: relative;
+    top: -20px;
+    padding: 10px 15px 10px;
+    border-radius: 10px 10px 0 0;
+}
+
+section a {
+    color: #5A7684;
+}
+
+section p {
+    color: #191919;
+    margin: 0 2.5% 2.5% 2.5%;
+
+
+
+}
+
+section img {
+    width: 95%;
+    height: auto;
+    border: 1px solid #5A7684;
+    margin: 0 2.5% 0 2.5%;
+}

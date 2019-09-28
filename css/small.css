@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
 h1,
 h2,
 h3,
@@ -45,7 +48,7 @@ footer a {
 
 #mainContent {
     color: #191919;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: 'Libre Franklin', sans-serif;
     width: 100%;
 }
 
