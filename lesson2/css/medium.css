@@ -33,6 +33,11 @@
         top: -20px;
 
     }
+    
+    .short-line {
+        display: inline;
+    }
 
+    
 
 }

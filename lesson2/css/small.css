@@ -66,3 +66,18 @@ section img {
     border: 1px solid #5A7684;
     margin: 0 2.5% 0 2.5%;
 }
+
+footer {
+    background-color: #395B50;
+    color: #CED0CE;
+    text-align: center;
+    font-size: .85em;
+    margin: 5% auto 0;
+    line-height: 1.5em;
+    padding: .1em 0 .1em 0;
+
+}
+
+.short-line {
+    display: block;
+}
