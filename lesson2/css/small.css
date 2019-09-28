@@ -81,3 +81,11 @@ footer {
 .short-line {
     display: block;
 }
+
+.imgMiddle{
+    display: none;
+  }
+
+.imgSmall{
+    display: block;
+  }

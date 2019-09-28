@@ -35,4 +35,12 @@
         border-radius: 10px;
         margin: 0% 13% 1.25%;
     }
+    
+    .imgMiddle{
+        display: none;
+      }
+    
+    .imgSmall{
+        display: block;
+      }
 }
