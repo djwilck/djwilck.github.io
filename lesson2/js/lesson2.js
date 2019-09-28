@@ -19,6 +19,6 @@ let second = addZero(d.getSeconds());
 let lastUpdated = month + "/" + day + "/" + year + " " + hour + ":" + minute + ":" + second;
 
 
-document.getElementById("l2updated").textContent = "Last Updated: " + lastUpdated;
+document.getElementById("updated").textContent = "Last Updated: " + lastUpdated;
 
-document.getElementById("l2copyright").textContent = d.getFullYear()
+document.getElementById("copyright").textContent = d.getFullYear()
