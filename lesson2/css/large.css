@@ -1,7 +1,7 @@
 @media only screen and (min-width: 60em) {
     header {
         width: 74%;
-
+        margin: 1.25% 13% 0;
     }
 
     main {
@@ -28,5 +28,11 @@
     section h2 {
         top: -20px;
 
+    }
+
+    footer {
+        width: 74%;
+        border-radius: 10px;
+        margin: 0% 13% 1.25%;
     }
 }
