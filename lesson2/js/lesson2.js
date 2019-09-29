@@ -18,7 +18,8 @@ let second = addZero(d.getSeconds());
 
 let lastUpdated = month + "/" + day + "/" + year + " " + hour + ":" + minute + ":" + second;
 
+let n = new Date();
 
 document.getElementById("updated").textContent = "Last Updated: " + lastUpdated;
 
-document.getElementById("copyright").textContent = d.getFullYear()
+document.getElementById("copyright").textContent = n.getFullYear();

@@ -16,9 +16,11 @@ let hour = addZero(d.getHours());
 let minute = addZero(d.getMinutes());
 let second = addZero(d.getSeconds());
 
+let n = new Date();
+
 let lastUpdated = month + "/" + day + "/" + year + " " + hour + ":" + minute + ":" + second;
 
 
 document.getElementById("updated").textContent = "Last Updated: " + lastUpdated;
 
-document.getElementById("copyright").textContent = d.getFullYear()
+document.getElementById("copyright").textContent = n.getFullYear();
