@@ -1,0 +1,139 @@
+/*
+https://coolors.co/182944-468ac9-20a4f3-d6eefc-6dbaa3
+
+colors: Dark #182944, Blue #468ac9, teal #20a4f3, white #d6eefc, greenish #6dbaa3
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans&display=swap');
+
+header,
+footer {
+    background-color: #6DBAA3;
+    color: #182944;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center
+}
+
+header h3 {
+    font-style: italic;
+
+}
+
+header,
+nav,
+main,
+footer {
+    max-width: 100%;
+    margin: 0 auto;
+    color: #182944;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main p,
+figcaption {
+    font-family: 'PT Sans', sans-serif;
+}
+
+body {
+    background-color: #d6eefc;
+    font-size: 1em;
+}
+
+main{
+    padding: 15px;
+}
+nav {
+    background-color: #468ac9;
+    text-align: center;
+    box-shadow: 1px 1px 1px 1px;
+    font-family: 'Montserrat', sans-serif;
+    padding: .25%
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li a {
+    display: block;
+    color: #d6eefc;
+    text-align: center;
+    padding: 0.75rem;
+    text-decoration: none;
+    font-size: .8em;
+}
+
+nav a:hover {
+    background-color: #20a4f3;
+    border-radius: 10px;
+}
+
+.active {
+    color: #182944;
+    background-color: #89b4dc;
+    /*lighter shade of nav blue*/
+    border-radius: 10px;
+}
+
+#logo {
+    width: 115px;
+    height: auto;
+
+}
+
+img {
+    width: 256px;
+    border: 2px solid #182944;
+}
+
+table,
+th,
+td {
+    background-color: white;
+    border: 1px solid #182944;
+    border-collapse: collapse;
+    font-family: 'PT Sans', sans-serif;
+}
+
+table {
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+td {
+    padding: 15px;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+}
+figcaption {
+    font-size: .8em;
+    background-color: #d6eefc;
+}
+.short-line {
+    display: block;
+}
+#colors {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: column;
+}
+#row1 td, #row2 td{
+    width: 75px;
+}
+#row1 {
+    margin-bottom: 0;
+}

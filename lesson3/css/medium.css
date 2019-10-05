@@ -1,0 +1,69 @@
+/*
+colors: Dark #182944, Blue #468ac9, teal #20a4f3, white #d6eefc, greenish #6dbaa3
+*/
+
+@media only screen and (min-width: 37.5em) {
+
+    header,
+    nav,
+    main,
+    footer {
+        max-width: 92.5%;
+        margin: 0 auto;
+    }
+
+    header,
+    footer {
+        border-radius: 10px;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+
+
+    }
+
+    nav {
+        background-color: #D6EEFC;
+        box-shadow: none;
+    }
+
+    nav a {
+        background-color: #468AC9;
+        border-radius: 10px;
+        margin: 0 .5%;
+        border: 1px solid #182944;
+    }
+
+    nav a:hover {
+
+        border-radius: 10px;
+    }
+
+    .active {
+
+        border-radius: 10px;
+    }
+    .short-line {
+        display: inline;
+    }
+    #colors {
+        flex-flow: nowrap;
+        align-content: center;
+    }
+    #row1 td, #row2 td{
+        width: 75px;
+    }
+    #row1 {
+        margin-bottom: 5%;
+        margin-right: 0;
+    }
+    #row2 {
+        margin-left: 0;
+    }
+}
+}

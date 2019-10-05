@@ -1,0 +1,80 @@
+#c1 {
+    background-color: #182944
+}
+
+#c2 {
+    background-color: #468AC9
+}
+
+#c3 {
+    background-color: #20A4F3
+}
+
+#c4 {
+    background-color: #89b4dc
+}
+
+#c5 {
+    background-color: #D6EEFC
+}
+
+#c6 {
+    background-color: #6DBAA3
+}
+
+/*Sit Header*/
+#sA {
+    font-size: 2em;
+    background-color: #6DBAA3;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Site slogan*/
+#sB {
+    font-size: 1.17em;
+    background-color: #6DBAA3;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*nav*/
+#sC {
+    color: #d6eefc;
+    background-color: #468ac9;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+/*nav active*/
+#sD {
+    background-color: #89b4dc;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+
+/*h2*/
+#sE {
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d6eefc;
+}
+
+/*p*/
+#sF {
+    font-size: 1em;
+    background-color: #d6eefc;
+}
+
+/*caption*/
+#sG {
+    font-size: .8em;
+    background-color: #d6eefc;
+}
+
+/*footer*/
+#sH {
+    font-size: 1em;
+    background-color: #6DBAA3;
+}
