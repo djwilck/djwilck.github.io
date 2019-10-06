@@ -41,6 +41,7 @@ colors: Dark #182944, Blue #468ac9, teal #20a4f3, white #d6eefc, greenish #6dbaa
         border-radius: 10px;
         margin: 0 .5%;
         border: 1px solid #182944;
+        padding: 8em;
     }
 
     nav a:hover {
