@@ -6,6 +6,8 @@ colors: Dark #182944, Blue #468ac9, teal #20a4f3, white #d6eefc, greenish #6dbaa
 */
 @import url('https://fonts.googleapis.com/css?family=Montserrat|PT+Sans&display=swap');
 
+
+
 header,
 footer {
     background-color: #6DBAA3;
@@ -44,7 +46,7 @@ figcaption {
 
 body {
     background-color: #d6eefc;
-    font-size: 1em;
+    font-size: .7rem;
 }
 
 main {
@@ -70,7 +72,7 @@ nav li a {
     display: block;
     color: #d6eefc;
     text-align: center;
-    padding: 0.75rem;
+    padding: 0.8em;
     text-decoration: none;
     font-size: .8em;
 }
@@ -110,15 +112,17 @@ td {
 table {
     margin: auto;
     margin-bottom: 5%;
+    width: 100%;
+
 }
 
 td {
-    padding: 15px;
+    padding: 2%;
 }
 
 th {
     text-align: left;
-    padding: 5px;
+    padding: 1%;
 }
 
 figcaption {
@@ -144,4 +148,8 @@ figcaption {
 
 .row1 {
     margin-bottom: 0;
+}
+
+table img {
+    width: 75%;
 }
