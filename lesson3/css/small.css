@@ -47,9 +47,10 @@ body {
     font-size: 1em;
 }
 
-main{
+main {
     padding: 15px;
 }
+
 nav {
     background-color: #468ac9;
     text-align: center;
@@ -119,21 +120,28 @@ th {
     text-align: left;
     padding: 5px;
 }
+
 figcaption {
     font-size: .8em;
     background-color: #d6eefc;
 }
+
 .short-line {
     display: block;
 }
-#colors, #persona {
+
+#colors,
+#persona {
     display: flex;
     flex-flow: wrap;
     flex-direction: column;
 }
-.row1 td, .row2 td{
+
+.row1 td,
+.row2 td {
     width: 75px;
 }
+
 .row1 {
     margin-bottom: 0;
 }

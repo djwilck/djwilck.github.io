@@ -3,26 +3,28 @@
 }
 
 #c2 {
-    background-color: #468AC9
-}
-
-#c3 {
-    background-color: #20A4F3
-}
-
-#c4 {
-    background-color: #89b4dc
-}
-
-#c5 {
     background-color: #D6EEFC
 }
 
-#c6 {
+#c3 {
     background-color: #6DBAA3
 }
 
-/*Sit Header*/
+#c4 {
+    background-color: #468AC9
+}
+
+#c5 {
+
+    background-color: #89B4DC
+}
+
+#c6 {
+
+    background-color: #20A4F3
+}
+
+/*Site Header*/
 #sA {
     font-size: 2em;
     background-color: #6DBAA3;
@@ -78,13 +80,17 @@
     font-size: 1em;
     background-color: #6DBAA3;
 }
-.noformat, .noformat th, .noformat td{
+
+.noformat,
+.noformat th,
+.noformat td {
     background-color: inherit;
     border: none;
     border-collapse: none;
     margin: 0 auto;
 }
+
 .noformat {
     width: 100%;
-   
+
 }
