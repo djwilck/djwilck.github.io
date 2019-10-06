@@ -51,18 +51,23 @@ colors: Dark #182944, Blue #468ac9, teal #20a4f3, white #d6eefc, greenish #6dbaa
     .short-line {
         display: inline;
     }
-    #colors {
+    #colors, #persona{
         flex-flow: nowrap;
         align-content: center;
     }
-    #row1 td, #row2 td{
+    
+    .row1 td, .row2 td{
         width: 75px;
     }
-    #row1 {
+    .row1 {
         margin-bottom: 5%;
         margin-right: 0;
     }
-    #row2 {
+    .row2 {
         margin-left: 0;
+    }
+
+    table img{
+        width: 75%;
     }
 }

@@ -126,14 +126,14 @@ figcaption {
 .short-line {
     display: block;
 }
-#colors {
+#colors, #persona {
     display: flex;
     flex-flow: wrap;
     flex-direction: column;
 }
-#row1 td, #row2 td{
+.row1 td, .row2 td{
     width: 75px;
 }
-#row1 {
+.row1 {
     margin-bottom: 0;
 }

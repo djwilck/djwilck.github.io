@@ -78,3 +78,13 @@
     font-size: 1em;
     background-color: #6DBAA3;
 }
+.noformat, .noformat th, .noformat td{
+    background-color: inherit;
+    border: none;
+    border-collapse: none;
+    margin: 0 auto;
+}
+.noformat {
+    width: 100%;
+   
+}
