@@ -1,0 +1,58 @@
+@media only screen and (min-width: 37.5em){
+
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    header, footer {
+        border-radius: 10px;
+    }
+
+    
+    nav{
+        background-color: #d6eefc;
+    }
+
+    .navigation {
+        display:flex;
+        margin:  auto;
+        
+    }
+
+    .navigation li:first-child {
+    display:none;
+    }
+
+
+    .navigation li {
+        display: block;
+        font-size: 0.8rem;
+        flex: 1 1 100%;
+        padding: 2px 1px;
+    }
+
+    .navigation li a {
+        border: none;
+        border: 1px solid rgba(0,0,0,0.3);
+        border-radius: 10px;
+        background-color: #468AC9;
+
+    }
+
+    .navigation li.active a{
+        border-radius: 10px;
+    }
+    
+    .navigation li a:hover {
+        border-radius: 10px;
+        
+    }
+
+    .short-line {
+        display: inline;
+    }
+
+
+}
+
