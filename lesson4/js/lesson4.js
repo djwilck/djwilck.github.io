@@ -10,13 +10,14 @@ let months = ["January", "February", "March", "April", "May", "June", "July", "A
 
 let d = new Date(document.lastModified);
 let day = d.getDate()
-let month = d.getMonth() + 1
+let dayname = daynames[d.getDay()]
+let month = months[d.getMonth()]
 let year = d.getFullYear()
 let hour = addZero(d.getHours());
 let minute = addZero(d.getMinutes());
 let second = addZero(d.getSeconds());
 
-let lastUpdated = month + "/" + day + "/" + year + " " + hour + ":" + minute + ":" + second;
+let lastUpdated = dayname + ", " + day + " " + month + " " + year;
 
 let n = new Date();
 

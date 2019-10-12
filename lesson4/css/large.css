@@ -1,5 +1,5 @@
 @media only screen and (min-width: 65em) {
-    body {
+    nav, main, footer {
         width: 80%;
         font-size: 1rem;
     }
@@ -8,6 +8,8 @@
         padding: 0.6rem;
         font-size: 0.8rem;
     }
-
+    .short-line {
+        display: inline;
+    }
     
 }

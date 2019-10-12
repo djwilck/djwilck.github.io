@@ -1,11 +1,11 @@
 @media only screen and (min-width: 37.5em){
 
-    body {
+    nav, main, footer {
         width: 95%;
         margin: 0 auto;
     }
 
-    header, footer {
+     footer {
         border-radius: 10px;
     }
 
@@ -49,9 +49,7 @@
         
     }
 
-    .short-line {
-        display: inline;
-    }
+    
 
 
 }
