@@ -1,15 +1,18 @@
 @media only screen and (min-width: 65em) {
-    nav, main, footer {
+
+    main,
+    footer {
         width: 80%;
         font-size: 1rem;
     }
-    
+
     .navigation li a {
         padding: 0.6rem;
         font-size: 0.8rem;
     }
+
     .short-line {
         display: inline;
     }
-    
+
 }
