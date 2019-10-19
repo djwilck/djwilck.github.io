@@ -121,12 +121,12 @@ nav {
     background-color: rgba(137, 179, 219, 0.3);
     margin: 2% 0;
     padding: 2%;
-    display:flex;
-    
+    display: flex;
+
 
 }
 
-.contentbox h2{
+.contentbox h2 {
     margin: 0 auto;
     text-align: center;
 }
@@ -150,12 +150,12 @@ nav {
 .hero {
     border: none;
     padding: 0 0;
-    position:relative;
+    position: relative;
 }
 
-.hero img{
+.hero img {
     max-width: 1200px;
-    width:100%;
+    width: 100%;
 }
 
 .summary {
@@ -163,8 +163,8 @@ nav {
     width: 25%;
     max-width: 200px;
     min-width: 115px;
-    top:.8rem;
-    left:.8rem;
+    top: .8rem;
+    left: .8rem;
     background-color: rgba(109, 186, 163, 0.8);
     padding: 0.2rem 0.8rem;
     border: 1px solid #182944;
@@ -177,8 +177,9 @@ nav {
     text-decoration-line: underline;
     font-size: .7rem;
 }
+
 .summary p {
-    font-size:.6rem;
+    font-size: .6rem;
 }
 
 .forecast {
@@ -187,8 +188,9 @@ nav {
 
 .article {
     display: flex;
-    flex-flow: column ;
+    flex-flow: column;
 }
+
 .articletext {
     order: 1;
 }
@@ -202,14 +204,17 @@ nav {
     display: flex;
     flex-flow: row;
 }
-.leftcol, .rightcol {
+
+.leftcol,
+.rightcol {
     width: 48%;
     flex: 1 1 auto;
     margin: .5em;
-    text-align:left;
-    
+    text-align: left;
+
 }
 
-.contact img, .leftcol {
+.contact img,
+.leftcol {
     display: none;
 }

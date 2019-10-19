@@ -5,6 +5,7 @@
         width: 95%;
         margin: 0 auto;
     }
+
     main {
         font-size: 1rem;
     }
@@ -57,46 +58,50 @@
         border-radius: 10px;
     }
 
-    .contentbox h2{
+    .contentbox h2 {
         text-align: left;
     }
 
-    .hero img{
+    .hero img {
         border-radius: 10px;
     }
 
     .summary {
-        top:1.5rem;
-        left:1.5rem;
+        top: 1.5rem;
+        left: 1.5rem;
         min-width: 185px;
         padding: 0.2rem 1.5rem;
     }
 
     .summary h3 {
-       
+
         font-size: 1.2rem;
     }
+
     .summary p {
         font-size: 1rem;
     }
+
     .forecast {
         display: block;
     }
+
     .article {
-        display:block;
+        display: block;
         overflow: hidden;
-        padding-bottom:1%; 
-        
+        padding-bottom: 1%;
+
     }
 
     #articlepic {
-        
+
         float: right;
         width: 40%;
         padding: 0 0 1% 2%;
     }
 
-    .contact img, .leftcol {
+    .contact img,
+    .leftcol {
         display: block;
     }
 
@@ -104,5 +109,5 @@
         width: 100%;
         max-width: 450px;
     }
-    
+
 }
