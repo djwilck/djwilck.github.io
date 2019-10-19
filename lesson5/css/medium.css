@@ -4,6 +4,11 @@
     footer {
         width: 95%;
         margin: 0 auto;
+        max-width: 900px;
+    }
+
+    header img{
+        width:100px;
     }
 
     main {
@@ -16,9 +21,7 @@
     }
 
 
-    nav {
-        background-color: #d6eefc;
-    }
+ 
 
     .navigation {
         display: flex;
@@ -40,18 +43,16 @@
 
     .navigation li a {
         border: none;
-        border: 1px solid rgba(0, 0, 0, 0.3);
-        border-radius: 10px;
         background-color: #468AC9;
 
     }
 
     .navigation li.active a {
-        border-radius: 10px;
+        border-radius: 5px;
     }
 
     .navigation li a:hover {
-        border-radius: 10px;
+        border-radius: 5px;
 
     }
 

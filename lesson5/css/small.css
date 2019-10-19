@@ -28,12 +28,11 @@ header {
 }
 
 header img {
-    width: 20%;
+    width: 75px;
     height: auto;
     border: 1px solid #182944;
     border-radius: 10px;
     margin: 0 2%;
-    max-width: 115px;
 
 }
 
@@ -137,6 +136,7 @@ nav {
 #motto {
     font-style: italic;
     padding-top: 5px;
+    font-size: 1.2em;
 }
 
 .short-line {
