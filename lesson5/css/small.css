@@ -121,7 +121,12 @@ nav {
     margin: 2% 0;
     padding: 2%;
     border: 2px dashed darkgrey;
+    display:flex;
 
+}
+
+.contentbox h2{
+    margin: 0 auto;
 }
 
 #motto {
@@ -131,4 +136,74 @@ nav {
 
 .short-line {
     display: block;
+}
+
+#banner {
+    text-align: center;
+    padding: .6rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #d6eefc;
+}
+
+.hero {
+    border: none;
+    padding: 0 0;
+    position:relative;
+}
+
+.hero img{
+    max-width: 1200px;
+    width:100%;
+}
+
+.summary {
+    position: absolute;
+    width: 25%;
+    max-width: 200px;
+    min-width: 115px;
+    top:.8rem;
+    left:.8rem;
+    background-color: rgba(109, 186, 163, 0.8);
+    padding: 0.2rem 0.8rem;
+    border: 1px solid #182944;
+    opacity: 1;
+    box-shadow: 0 0 30px #7b8596;
+}
+
+.summary h3 {
+    text-align: center;
+    text-decoration-line: underline;
+    font-size: .7rem;
+}
+.summary p {
+    font-size:.6rem;
+}
+
+.forecast {
+    display: none;
+}
+
+.article {
+    display: flex;
+    flex-flow: column ;
+}
+.articletext {
+    order: 1;
+}
+
+#articlepic {
+    width: 100%;
+    order: 2;
+}
+
+.contact {
+    display: flex;
+    flex-flow: row;
+}
+.leftcol, .rightcol {
+    width: 48%;
+    flex: 1 1 auto;
+    margin: .5em;
+    text-align:left;
+    
 }

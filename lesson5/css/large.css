@@ -14,5 +14,8 @@
     .short-line {
         display: inline;
     }
-
+    .article {
+    
+        min-height: 100%;
+    }
 }
