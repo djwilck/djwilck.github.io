@@ -207,3 +207,7 @@ nav {
     text-align:left;
     
 }
+
+.contact img, .leftcol {
+    display: none;
+}
