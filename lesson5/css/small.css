@@ -55,6 +55,7 @@ h3 {
 
 main {
     padding: 0 2.5%;
+    font-size: .8rem;
 }
 
 main p,
@@ -117,16 +118,17 @@ nav {
 }
 
 .contentbox {
-    background-color: lightgrey;
+    background-color: rgba(137, 179, 219, 0.3);
     margin: 2% 0;
     padding: 2%;
-    border: 2px dashed darkgrey;
     display:flex;
+    
 
 }
 
 .contentbox h2{
     margin: 0 auto;
+    text-align: center;
 }
 
 #motto {

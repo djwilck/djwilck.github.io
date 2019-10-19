@@ -5,6 +5,9 @@
         width: 95%;
         margin: 0 auto;
     }
+    main {
+        font-size: 1rem;
+    }
 
     footer {
         border-radius: 10px;
@@ -50,6 +53,18 @@
 
     }
 
+    .contentbox {
+        border-radius: 10px;
+    }
+
+    .contentbox h2{
+        text-align: left;
+    }
+
+    .hero img{
+        border-radius: 10px;
+    }
+
     .summary {
         top:1.5rem;
         left:1.5rem;
@@ -89,4 +104,5 @@
         width: 100%;
         max-width: 450px;
     }
+    
 }
