@@ -18,10 +18,13 @@ footer {
     flex-flow: row;
     align-items: center;
     justify-content: center;
-    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: .8rem;
+}
+
+header {
+    padding: 10px;
 }
 
 header img {
