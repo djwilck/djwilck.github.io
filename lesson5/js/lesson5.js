@@ -8,7 +8,7 @@ function addZero(i) {
 let daynames = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 
-let d = new Date(document.lastModified);
+let d = new Date();
 let day = d.getDate()
 let dayname = daynames[d.getDay()]
 let month = months[d.getMonth()]
@@ -17,11 +17,11 @@ let hour = addZero(d.getHours());
 let minute = addZero(d.getMinutes());
 let second = addZero(d.getSeconds());
 
-let lastUpdated = dayname + ", " + day + " " + month + " " + year;
+let today = dayname + ", " + day + " " + month + " " + year;
 
 let n = new Date();
 
-document.getElementById("updated").textContent = "Last Updated: " + lastUpdated;
+document.getElementById("updated").textContent = today;
 
 document.getElementById("copyright").textContent = n.getFullYear();
 
