@@ -41,16 +41,36 @@
             <img src="images/hero.jpg" alt="image of a lake in Idaho">
             <section class="summary">
                 <h3>Weather Summary</h3>
-                <p>Label:Value</p>
-                <p>Label:Value</p>
-                <p>Label:Value</p>
+                <p>Currently: Sunny<br>
+                    High: 76 &#176F<br>
+                    Wind Chill: &#176F<br>
+                    Humidity: 69%<br>
+                    Wind Speed: 5 mph</p>
             </section>
         </div>
-        <div class="contentbox forecast">5-Day Forecast</div>
+        <div class="contentbox forecast">
+            <h3>5-Day Forecast</h3>
+            <table class="foretable">
+                <tr>
+                    <th>Mon</th>
+                    <th>Tue</th>
+                    <th>Wed</th>
+                    <th>Thu</th>
+                    <th>Fri</th>
+                </tr>
+                <tr>
+                    <td>76 &#176F</td>
+                    <td>76 &#176F</td>
+                    <td>76 &#176F</td>
+                    <td>76 &#176F</td>
+                    <td>76 &#176F</td>
+                </tr>
+            </table>
+        </div>
         <div class="contentbox article">
-
             <img id="articlepic" src="images/article-picture.jpg" alt="image of a cabin">
-            <h2 class="articletext">Article</h2>
+            <h3 class="articletext">Article</h3>
+            <h4 class="articletext italic">by John Doe</h4>
             <p class="articletext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed elementum.
                 Ullamcorper malesuada proin libero nunc consequat interdum. Nibh mauris cursus mattis molestie a iaculis
@@ -58,17 +78,19 @@
                 orci a scelerisque. Feugiat in ante metus dictum at. <br>Et molestie ac feugiat sed lectus. Id velit ut
                 tortor pretium viverra suspendisse potenti nullam ac. Neque laoreet suspendisse interdum consectetur
                 libero. Feugiat scelerisque varius morbi enim. Ac felis donec et odio pellentesque diam volutpat. Ipsum
-                dolor sit amet consectetur adipiscing elit duis tristique.</p>
-
+                dolor sit amet consectetur adipiscing elit duis tristique.<br>
+                <a href="#">Click here to view the rest of the article.</a></p>
         </div>
         <div class="contentbox contact">
             <section class="leftcol">
                 <img src="images/contact-map.jpg" alt="Map of Idaho - placeholder image">
             </section>
             <section class="rightcol">
-                <h2>Contact Information</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed elementum.
+                <h3>Contact Information</h3>
+                <p><span class="bold">Foul Weather Warning</span> <br>
+                    30 N 1st E <br> Preston, ID 83263</p>
+                <p>&#9742 ###.###.####<br>
+                    &#9993 info@foulweatherwarning.com
                 </p>
             </section>
         </div>

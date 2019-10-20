@@ -7,13 +7,13 @@
         max-width: 900px;
     }
 
-    header img{
-        width:100px;
+    header img {
+        width: 100px;
     }
 
     main {
         font-size: 1rem;
-        
+
     }
 
     footer {
@@ -21,7 +21,7 @@
     }
 
 
- 
+
 
     .navigation {
         display: flex;
@@ -60,7 +60,7 @@
         border-radius: 10px;
     }
 
-    .contentbox h2 {
+    .contentbox h3 {
         text-align: left;
     }
 
@@ -88,6 +88,27 @@
         display: block;
     }
 
+    .foretable,
+    .foretable th,
+    .foretable td {
+
+        border: 1px solid #182944;
+        border-collapse: collapse;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .foretable th {
+        background-color: rgba(70, 138, 201, 0.8);
+    }
+
+    .foretable {
+        margin: 2% auto;
+        width: 80%;
+        max-width: 550px;
+    }
+
     .article {
         display: block;
         overflow: hidden;
@@ -111,5 +132,6 @@
         width: 100%;
         max-width: 450px;
     }
+    
 
 }

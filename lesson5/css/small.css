@@ -67,7 +67,6 @@ figcaption {
 }
 
 .navigation li:first-child {
-    color: #555;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 
@@ -128,7 +127,7 @@ nav {
 
 }
 
-.contentbox h2 {
+.contentbox h3 {
     margin: 0 auto;
     text-align: center;
 }
@@ -154,11 +153,15 @@ nav {
     border: none;
     padding: 0 0;
     position: relative;
+    overflow: visible;
+
+
 }
 
 .hero img {
     max-width: 1200px;
     width: 100%;
+
 }
 
 .summary {
@@ -173,6 +176,7 @@ nav {
     border: 1px solid #182944;
     opacity: 1;
     box-shadow: 0 0 30px #7b8596;
+
 }
 
 .summary h3 {
@@ -187,11 +191,13 @@ nav {
 
 .forecast {
     display: none;
+    
 }
 
 .article {
     display: flex;
     flex-flow: column;
+
 }
 
 .articletext {
@@ -206,6 +212,10 @@ nav {
 .contact {
     display: flex;
     flex-flow: row;
+    
+}
+.contact p {
+    text-align: center;
 }
 
 .leftcol,
@@ -220,4 +230,13 @@ nav {
 .contact img,
 .leftcol {
     display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+    font-weight: normal;
 }
