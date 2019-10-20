@@ -134,5 +134,9 @@
         max-width: 450px;
     }
 
+    .contact p{
+        text-align: left;
+    }
+
 
 }
