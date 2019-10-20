@@ -191,7 +191,7 @@ nav {
 
 .forecast {
     display: none;
-    
+
 }
 
 .article {
@@ -212,8 +212,9 @@ nav {
 .contact {
     display: flex;
     flex-flow: row;
-    
+
 }
+
 .contact p {
     text-align: center;
 }
