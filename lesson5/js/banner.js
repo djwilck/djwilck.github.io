@@ -10,7 +10,7 @@ function showBanner() {
     } else {
         document.getElementById("banner").style.display = "none";
     }
-    console.log(dayname)
+    
 }
 
 showBanner()
