@@ -1,0 +1,27 @@
+@media only screen and (min-width: 65em) {
+/*Large view min-width: 65em*/
+    main,
+    footer {
+        font-size: 1rem;
+        background-color:transparent;
+        max-width: 1000px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .navigation li a {
+        padding: 0.6rem;
+        font-size: 0.8rem;
+    }
+
+    .short-line {
+        display: inline;
+    }
+
+    .article {
+
+        min-height: 100%;
+    }
+}
