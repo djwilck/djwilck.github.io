@@ -2,9 +2,10 @@
 /*Large view min-width: 65em*/
     main,
     footer {
+        
         font-size: 1rem;
         background-color:transparent;
-        max-width: 1000px;
+        max-width: 900px;
     }
 
     footer {

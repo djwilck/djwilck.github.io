@@ -207,6 +207,8 @@ nav {
 #articlepic {
     width: 100%;
     order: 2;
+    max-width: 400px;
+    margin: 0 auto;
 }
 
 .contact {
