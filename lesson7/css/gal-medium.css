@@ -8,6 +8,10 @@
 
     }
 
+    footer {
+        font-size: 0.8rem;
+    }
+
     header img {
         width: 100px;
     }
@@ -21,8 +25,22 @@
         border-radius: 10px;
     }
 
+    /* Short Line Display */
+    .short-line {
+        display: inline;
+    }
 
+    .short-line-mid {
+        display: block;
+    }
 
+    .short-line-hide {
+        display:inline;
+    }
+    .mid {
+        display: none;
+    }
+    /* ------------------ */
 
     .navigation {
         display: flex;

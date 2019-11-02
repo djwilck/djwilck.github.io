@@ -1,10 +1,11 @@
 @media only screen and (min-width: 37.5em) {
-/*Medium view*/
+
+    /*Medium view*/
     main,
     footer {
         width: 75%;
         margin: 0 auto;
-        
+
     }
 
     header img {
@@ -20,7 +21,24 @@
         border-radius: 10px;
     }
 
+    /* Short Line Display */
+    .short-line {
+        display: inline;
+    }
 
+    .short-line-mid {
+        display: block;
+    }
+
+    .short-line-hide {
+        display: inline;
+    }
+
+    .mid {
+        display: none;
+    }
+
+    /* ------------------ */
 
 
     .navigation {
@@ -134,7 +152,7 @@
         max-width: 450px;
     }
 
-    .contact p{
+    .contact p {
         text-align: left;
     }
 

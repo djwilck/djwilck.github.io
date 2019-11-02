@@ -138,9 +138,16 @@ nav {
     font-size: 1.2em;
 }
 
+/* Short Line Display */
 .short-line {
     display: block;
 }
+
+.short-line-hide {
+    display: none;
+}
+
+/* ------------------ */
 
 #banner {
     text-align: center;

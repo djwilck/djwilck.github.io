@@ -2,13 +2,15 @@
 /*Large view min-width: 65em*/
     main,
     footer {
-        
-        font-size: 1.2rem;
         max-width: 900px;
     }
 
+    main {
+        font-size: 1.2rem;
+    }
     footer {
         padding: 10px 0;
+
     }
 
     .navigation li a {
@@ -16,9 +18,15 @@
         font-size: 1rem;
     }
 
-    .short-line {
+    /* Short Line Display */
+    .short-line-mid {
         display: inline;
     }
+
+    .short-line-hide {
+        display: inline;
+    }
+    /* ------------------ */
 
     .article {
 
