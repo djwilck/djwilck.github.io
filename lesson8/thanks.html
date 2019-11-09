@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Joseph Wilcken">
+    <meta name="description" content="Gallery of weather images">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    
+    <title>Storm Center - Foul Weather Warning</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/fww-logo-sized.png" alt="logo for Foul Weather Warning">
+        <div id="headertext">
+            <h1>Foul Weather Warning</h1>
+            <div id="motto">We'll keep our eye on the weather!</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="preston-8.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery-8.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Storm Center</h2>
+
+        <div class="contentbox center">
+            <p> Thank you for submitting your storm report! </br>
+            <a href="stormcenter.html">Click here</a> to report another storm.</p>
+            </div>
+
+    </main>
+    <footer>
+        <p><span class="short-line">&copy; <span id="copyright"></span> Foul Weather Warning</span>
+            <span class="short-line"><span class="short-line-hide">|</span> Attributions | Joseph Wilcken <span
+                    class="short-line-hide mid">|</span></span>
+            <span class="short-line short-line-mid" id="updated"></span></p>
+    </footer>
+    <script src="js/lesson8.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lazyload.js" defer></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Montserrat', 'PT Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
