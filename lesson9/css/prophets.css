@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab:400,700&display=swap');
+main, footer{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+h1 {
+    font-size: 1.75em;
+}
+
+h1, h2 {
+    color: #4d4d96;
+    text-align: center;
+    line-height: 25px;
+    font-family: 'Roboto Slab', serif;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    gap: 3px;
+    background-color: #dddddd;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+.cards section {
+    text-align: center;
+    border: 1px solid #4d4d96;
+    padding: 10px;
+    background-color: #b9b9cc;
+    justify-content: center;
+}
+
+.cards img {
+    width: 70%;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.75);
+}
+
+.cards p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90%;
+    
+}
+
+/* Medium View */
+@media only screen and (min-width: 37.5em) {
+    main {
+        width: 90%;
+    }
+
+    h1 {
+        font-size:2em;
+        line-height: 15px;
+    }
+    .cards {
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+/*-------------*/
+
+
+/* Large View */
+@media only screen and (min-width: 65em) {
+
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+
+}
+
+/*------------*/

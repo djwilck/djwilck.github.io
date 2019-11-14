@@ -1,0 +1,174 @@
+@media only screen and (min-width: 37.5em) {
+
+    /*Medium view*/
+    main,
+    footer {
+        width: 75%;
+        margin: 0 auto;
+
+    }
+
+    header img {
+        width: 100px;
+    }
+
+    main {
+        font-size: 1rem;
+
+    }
+
+    footer {
+        border-radius: 10px;
+        font-size: 0.8rem;
+    }
+
+    /* Short Line Display */
+    .short-line {
+        display: inline;
+    }
+
+    .short-line-mid {
+        display: block;
+    }
+
+    .short-line-hide {
+        display: inline;
+    }
+
+    .mid {
+        display: none;
+    }
+
+    /* ------------------ */
+
+
+    .navigation {
+        display: flex;
+        margin: auto;
+
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+
+    .navigation li {
+        display: block;
+        font-size: 0.8rem;
+        flex: 1 1 100%;
+        padding: 2px 1px;
+    }
+
+    .navigation li a {
+        border: none;
+        background-color: #468AC9;
+
+    }
+
+    .navigation li.active a {
+        border-radius: 5px;
+    }
+
+    .navigation li a:hover {
+        border-radius: 5px;
+
+    }
+
+    .contentbox {
+        border-radius: 10px;
+    }
+
+    .contentbox h3 {
+        text-align: left;
+    }
+
+    .hero img {
+        border-radius: 10px;
+    }
+
+    .summary {
+        top: 1.5rem;
+        left: 1.5rem;
+        min-width: 185px;
+        padding: 0.2rem 1.5rem;
+    }
+
+    .summary h3 {
+
+        font-size: 1.2rem;
+    }
+
+    .summary p {
+        font-size: 1rem;
+    }
+
+    .forecast {
+        display: block;
+    }
+
+    .foretable,
+    .foretable th,
+    .foretable td {
+
+        border: 1px solid #182944;
+        border-collapse: collapse;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: normal;
+        text-align: center;
+    }
+
+    .foretable th {
+        background-color: rgba(70, 138, 201, 0.8);
+    }
+
+    .foretable {
+        margin: 2% auto;
+        width: 80%;
+        max-width: 550px;
+    }
+
+    .article {
+        display: block;
+        overflow: hidden;
+        padding-bottom: 1%;
+
+    }
+
+    #articlepic {
+
+        float: right;
+        width: 40%;
+        padding: 0 0 1% 2%;
+        max-width: 500px;
+    }
+
+    .contact img,
+    .leftcol {
+        display: block;
+    }
+
+    .contact img {
+        width: 100%;
+        max-width: 450px;
+    }
+
+    .contact p {
+        text-align: left;
+    }
+
+    /* Gallery */
+    #galMain, #galFooter {
+        width: 85%;
+    }
+
+    #galleryGrid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .gridItem p {
+        font-size: .8em;
+    }
+
+
+}
