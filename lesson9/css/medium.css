@@ -175,6 +175,7 @@
     .towns article{
         display: flex;
         flex-direction: row;
+        padding: 10px;
     }
 
     .towns article:nth-child(even){
@@ -188,7 +189,7 @@
     }
 
     .homepic{
-        width:48%;
+        width:48%; /*365x274 small 400x308*/
         padding: 10px;
     }
 
@@ -197,7 +198,8 @@
     }
 
     .map img{
-        width: 100%
+        width: 100%;
+        border-radius: 10px;
     }
 
 }
