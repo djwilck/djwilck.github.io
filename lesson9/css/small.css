@@ -309,14 +309,17 @@ form legend {
     padding: 0 .5rem;
 }
 
-form label.top, form div {
+form label.top,
+form div {
     display: block;
     padding-top: 1rem;
     color: #182944;
     font-size: .8rem;
 }
 
-form label.top input, form label.top select, form label.top textarea {
+form label.top input,
+form label.top select,
+form label.top textarea {
     -webkit-appearance: none;
     display: block;
     border: solid 1px #999;
@@ -324,10 +327,10 @@ form label.top input, form label.top select, form label.top textarea {
     padding: .75rem;
     color: #555;
     width: 100%;
-    max-width: 20rem;  
-    background-color: rgba(0,0,0,0.1);
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 14px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     height: 40px;
 }
 
@@ -335,7 +338,7 @@ form label.sbs {
     display: block;
     padding: 0.75rem 0;
     color: #555;
-    
+
 }
 
 form label.top textarea {
@@ -355,7 +358,7 @@ form input.submitBtn {
 
 form input.submitBtn:hover {
     background-color: #20a4f3;
-    
+
 }
 
 form label.top input:required {
@@ -367,17 +370,18 @@ form label.top input:required:valid {
 }
 
 form input:invalid {
-    border:6px solid red;
+    border: 6px solid red;
 }
 
 input[type=range]::-webkit-slider-runnable-track {
     width: 100%;
     cursor: pointer;
     height: 7px;
-    background: rgba(70, 138, 201,0.5);
+    background: rgba(70, 138, 201, 0.5);
     border-radius: 1.3px;
     border: 0.2px solid #010101;
 }
+
 input[type=range]::-webkit-slider-thumb {
     margin-top: -7px;
 }
@@ -385,4 +389,73 @@ input[type=range]::-webkit-slider-thumb {
 .center {
     text-align: center;
     display: block;
+}
+
+/*---Home---*/
+
+.towns {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+
+.towns article {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    flex: 1 1 0px;
+    align-content: stretch;
+    align-items: center
+}
+
+
+.homecontent {
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.homecontent section h3 {
+    text-align: center;
+}
+
+
+.homepic {
+    width: 100%;
+}
+
+.events,
+.events th,
+.events td {
+
+    border: 1px solid #182944;
+    border-collapse: collapse;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.events td {
+    height: 40px;
+}
+
+.events th {
+    background-color: rgba(70, 138, 201, 0.8);
+    font-weight: bold;
+}
+
+.events {
+    margin: 2% auto ;
+    width: 100%;
+
+    
+}
+.side {
+    align-content: stretch;
+    align-items: center
+}
+.side .rightcol {
+    width: 100%;
 }

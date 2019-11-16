@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Joseph Wilcken">
+    <meta name="description" content="Gallery of weather images">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Gallery - Foul Weather Warning</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/fww-logo-sized.png" alt="logo for Foul Weather Warning">
+        <div id="headertext">
+            <h1>Foul Weather Warning</h1>
+            <div id="motto">We'll keep our eye on the weather!</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="preston-9.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter-9.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main id="homeMain">
+        <h2>Home</h2>
+
+        <div class="towns"></div>
+
+        <div class="contentbox homecontent side">
+            <section class="leftcol">
+                <h3>Southeastern Idaho</h3>
+                <picture class="map">
+                    <source media="(min-width: 600px) and (max-width:1039px)" srcset="images/map-medium.jpg">
+                    <source media="(min-width: 1040px)" srcset="images/map.jpg">
+                    <img src="images/map.jpg" alt="Map of southeastern Idaho.">
+                </picture>
+            </section>
+            <section class="rightcol">
+                <h3>Local Events</h3>
+                <table class="events">
+                    <tr>
+                        <th>Day</th>
+                        <th>Event</th>
+                    </tr>
+                    <tr>
+                        <td id="sun">Sunday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="mon">Monday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="tue">Tuesday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="wed">Wednesday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="thu">Thursday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="fri">Friday</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td id="sat">Saturday</td>
+                        <td>Preston Pancakes in the Park!</td>
+                    </tr>
+                </table>
+            </section>
+        </div>
+
+        <p class="contentbox center"><a  href="https://app.moqups.com/HZq6rMynaD/view">Wireframes</a> made in Moqups. </p>
+    </main>
+    <footer id="homeFooter">
+        <p><span class="short-line">&copy; <span id="copyright"></span> Foul Weather Warning</span>
+            <span class="short-line"><span class="short-line-hide">|</span> Attributions | Joseph Wilcken <span
+                    class="short-line-hide mid">|</span></span>
+            <span class="short-line short-line-mid" id="updated"></span></p>
+    </footer>
+    <script src="js/lesson9.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="js/lazyload.js" defer></script>
+    <script src="js/home.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'Montserrat', 'PT Sans'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>

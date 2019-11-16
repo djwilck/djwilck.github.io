@@ -50,4 +50,49 @@
         font-size: .8rem;
     }
 
+    /*---Home---*/
+
+    .towns {
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .towns article {
+        flex-direction: column;
+        
+    }
+    .towns article:nth-child(even) {
+        flex-direction: column
+    }
+    
+    .homecontent p, .homecontent h3, .homecontent h5{
+        margin: 5px auto;
+    }
+
+    .towns article section {
+        width:90%;
+        
+    }
+
+    .events {
+        max-height: 420px;
+        max-width: 420px;
+    }
+
+    .homepic{
+        width:90%;
+        padding: 10px;
+    }
+
+
+    
+    .homecontent .leftcol, .homecontent .rightcol {
+        width: 48%;
+        
+    }
+
+    .side {
+        flex-direction: row;
+        align-items: stretch;
+    }
 }
