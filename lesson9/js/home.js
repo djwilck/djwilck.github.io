@@ -27,7 +27,7 @@ fetch(requestURL)
                 p3.textContent = "Annual Rain Fall: " + towns[i].averageRainfall + "in.";
                 image.setAttribute('src', "images/" + towns[i].photo);
                 image.setAttribute('alt', "Image of " + towns[i].name);
-                
+
 
                 text.appendChild(h3);
                 text.appendChild(h5);
@@ -38,7 +38,7 @@ fetch(requestURL)
                 image.classList.add("homepic")
                 article.appendChild(text);
                 article.appendChild(image);
-                article.classList.add("contentbox","homecontent")
+                article.classList.add("contentbox", "homecontent")
                 document.querySelector('div.towns').appendChild(article)
             }
         }

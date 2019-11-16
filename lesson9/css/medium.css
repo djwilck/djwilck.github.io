@@ -158,7 +158,8 @@
     }
 
     /* Gallery */
-    #galMain, #galFooter {
+    #galMain,
+    #galFooter {
         width: 85%;
     }
 
@@ -169,35 +170,38 @@
     .gridItem p {
         font-size: .8em;
     }
+
     /*---Home---*/
 
 
-    .towns article{
+    .towns article {
         display: flex;
         flex-direction: row;
         padding: 10px;
     }
 
-    .towns article:nth-child(even){
+    .towns article:nth-child(even) {
         flex-direction: row-reverse;
     }
 
     .towns article section {
         width: 48%;
         padding: 10px;
-        
+
     }
 
-    .homepic{
-        width:48%; /*365x274 small 400x308*/
+    .homepic {
+        width: 48%;
+        /*365x274 small 400x308*/
         padding: 10px;
     }
 
-    .homecontent .leftcol, .homecontent .rightcol {
+    .homecontent .leftcol,
+    .homecontent .rightcol {
         width: 100%;
     }
 
-    .map img{
+    .map img {
         width: 100%;
         border-radius: 10px;
     }

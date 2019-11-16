@@ -449,15 +449,17 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 .events {
-    margin: 2% auto ;
+    margin: 2% auto;
     width: 100%;
 
-    
+
 }
+
 .side {
     align-content: stretch;
     align-items: center
 }
+
 .side .rightcol {
     width: 100%;
 }

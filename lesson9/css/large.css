@@ -1,5 +1,6 @@
 @media only screen and (min-width: 65em) {
-/*Large view min-width: 65em*/
+
+    /*Large view min-width: 65em*/
     main,
     footer {
         max-width: 900px;
@@ -8,6 +9,7 @@
     main {
         font-size: 1.2rem;
     }
+
     footer {
         padding: 10px 0;
 
@@ -26,6 +28,7 @@
     .short-line-hide {
         display: inline;
     }
+
     /* ------------------ */
 
     .article {
@@ -42,9 +45,9 @@
 
     .gridItem:hover {
         box-shadow: 0 0 30px #333;
-        
+
     }
-    
+
     form label.sbs {
         padding: 0.2rem 0;
         font-size: .8rem;
@@ -59,19 +62,22 @@
 
     .towns article {
         flex-direction: column;
-        
+
     }
+
     .towns article:nth-child(even) {
         flex-direction: column
     }
-    
-    .homecontent p, .homecontent h3, .homecontent h5{
+
+    .homecontent p,
+    .homecontent h3,
+    .homecontent h5 {
         margin: 5px auto;
     }
 
     .towns article section {
-        width:90%;
-        
+        width: 90%;
+
     }
 
     .events {
@@ -79,16 +85,17 @@
         max-width: 420px;
     }
 
-    .homepic{
-        width:90%;
+    .homepic {
+        width: 90%;
         padding: 10px;
     }
 
 
-    
-    .homecontent .leftcol, .homecontent .rightcol {
+
+    .homecontent .leftcol,
+    .homecontent .rightcol {
         width: 48%;
-        
+
     }
 
     .side {
