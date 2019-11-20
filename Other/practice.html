@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <script>
+    function doFV(){
+        let principal = parseFloat(document.getElementById("principal").value);
+        let rate = parseFloat(document.getElementById("rate").value);
+        let years = parseFloat(document.getElementById("years").value);
+        let periods = parseFloat(document.getElementById("periods").value);
+
+        let FV = computeFutureValue(principal, rate, years, periods);
+        document.getElementById("output").innerHTML="$" + FV;
+        
+
+    }
+
+    function computeFutureValue(principal, rate, years, periods) {
+        let a = principal;
+        let r = rate/periods;
+        let n = periods*years;
+        let f = a * Math.pow((1+r), n);
+         f = f.toFixed(2);
+        return f;
+
+    }
+    </script>
+
+</head>
+<body>
+    Annual invested (Principal) <input type="text" id="principal"><br>
+    Annual rate (example .08) <input type="text" id="rate"><br>
+    Number of years <input type="text" id="years"><br>
+    Periods per year <input type="text" id="periods"><br>
+    <input type="button" value="Compute Future Vale" onclick="doFV()">
+    <div id="output"></div>
+
+    <a href="loancalc.html">Loan Calculator</a>
+</body>
+</html>

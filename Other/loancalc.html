@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practice</title>
+    <script>
+        function doPayment() {
+            let principal = parseFloat(document.getElementById("principal").value);
+            let rate = parseFloat(document.getElementById("rate").value);
+            let years = parseFloat(document.getElementById("years").value);
+            let periods = parseFloat(document.getElementById("periods").value);
+            let p = computePayment(principal, rate, years, periods)
+            document.getElementById("output1").innerHTML = p;
+
+        }
+
+        function computePayment(principal, rate, years, periods) {
+            let a = principal;
+            let r = rate / periods;
+            let n = periods * years;
+            p = a * r / (1 - Math.pow(1 + r, -n));
+            p = p.toFixed(2);
+            return p;
+
+        }
+
+        function doBalance() {
+            let principal = parseFloat(document.getElementById("principal").value);
+            let rate = parseFloat(document.getElementById("rate").value);
+            let years = parseFloat(document.getElementById("years").value);
+            let periods = parseFloat(document.getElementById("periods").value);
+            let payments = parseFloat(document.getElementById("payments").value);
+            let b = computeBalance(principal, rate, years, periods, payments)
+            document.getElementById("output2").innerHTML = b;
+        }
+
+        function computeBalance(principal, rate, years, periods, payments) {
+            let a = principal;
+            let r = rate / periods;
+            let n = periods * years;
+            let d = payments;
+            let p = computePayment(principal, rate, years, periods);
+            let b = a * Math.pow(1+r,d) - p*(Math.pow(1+r,d)-1) / r; 
+            b = b.toFixed(2);
+            return b;
+
+        }
+    </script>
+
+</head>
+
+<body>
+    Amount Borrowed (Principal) <input type="text" id="principal"><br>
+    Annual interest rate (example .08) <input type="text" id="rate"><br>
+    Number of years <input type="text" id="years"><br>
+    Periods per year <input type="text" id="periods"><br>
+    <input type="button" value="Compute  Payments" onclick="doPayment()"><br>
+    Number of payments paid to date <input type="text" id="payments">
+    <div id="output1"></div><br>
+    <input type="button" value="Compute Payoff Amount" onclick="doBalance()"><br>
+    <div id="output2"></div>
+
+    <a href="practice.html">investment</a>
+</body>
+
+</html>
