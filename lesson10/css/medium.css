@@ -125,7 +125,14 @@
     .foretable {
         margin: 2% auto;
         width: 80%;
-        max-width: 550px;
+        max-width: 600px;
+    }
+    .foretable td {
+        width: 20%
+    }
+
+    .foretable td p {
+        margin: 0 auto 10px;
     }
 
     .article {

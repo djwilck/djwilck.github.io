@@ -27,16 +27,16 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="preston-9.html">Preston</a></li>
+            <li><a href="index-10.html">Home</a></li>
+            <li class="active"><a href="preston-10.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="stormcenter-9.html">Storm Center</a></li>
-            <li><a href="gallery-9.html">Gallery</a></li>
+            <li><a href="stormcenter-10.html">Storm Center</a></li>
+            <li><a href="gallery-10.html">Gallery</a></li>
         </ul>
     </nav>
     <main>
-        <h2>Preston Idaho</h2>
+        <h2><span id="page">Preston</span> Idaho</h2>
         <div class="contentbox hero">
             <picture>
                 <source media="(max-width: 599px)" srcset="images/week6small-em.jpg">
@@ -48,12 +48,12 @@
 
             <section class="summary">
                 <h3>Weather Summary</h3>
-                <p>Currently: Sunny<br>
-                    Current Temp: <span id="temp">49</span>&#176;F<br>
-                    High: 60 &#176;F<br>
+                <p>Currently: <span id="desc">Sunny</span><br>
+                    Current Temp: <span id="temp"></span>&#176;F<br>
+                    High: <span id="hightemp"></span> &#176;F<br>
                     Wind Chill: <span id="chill"></span><br>
-                    Humidity: 69%<br>
-                    Wind Speed: <span id="speed">5</span> mph</p>
+                    Humidity: <span id="humidity"></span>%<br>
+                    Wind Speed: <span id="speed"></span> mph</p>
             </section>
         </div>
         <div class="contentbox forecast">
@@ -67,11 +67,11 @@
                     <th>Fri</th>
                 </tr>
                 <tr>
-                    <td>76 &#176;F</td>
-                    <td>76 &#176;F</td>
-                    <td>76 &#176;F</td>
-                    <td>76 &#176;F</td>
-                    <td>76 &#176;F</td>
+                    <td><img class="foreImg" src="" alt=""></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
                 </tr>
             </table>
         </div>
@@ -106,16 +106,18 @@
     <footer>
         <p>
             <p><span class="short-line">&copy; <span id="copyright"></span> Foul Weather Warning</span>
-                <span class="short-line"><span class="short-line-hide">|</span> Attributions | Joseph Wilcken <span
+                <span class="short-line"><span class="short-line-hide">|</span> Joseph Wilcken | Weather data from: <a href="https://openweathermap.org/">OpenWeatherMap</a> <span
                         class="short-line-hide mid">|</span></span>
                 <span class="short-line short-line-mid" id="updated"></span></p>
         </p>
     </footer>
-    <script src="js/lesson9.js"></script>
+    <script src="js/lesson10.js"></script>
     <script src="js/banner.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-    <script src="js/windchill.js"></script>
+    <script src="js/forecast.js"></script>
     <script src="js/lazyload.js" defer></script>
+    <script src="js/windchill.js" defer></script>
+    
     <script>
         WebFont.load({
             google: {

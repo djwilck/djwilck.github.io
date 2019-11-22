@@ -3,12 +3,13 @@
  *  t = current temp in F
  *  s = wind speed in MPH
  *  f = wind chill in F
-*       Wind Chill Temperature is officially defined for temperatures at or below 10 °C (50 °F) 
-*       and wind speeds above 4.8 kilometres per hour (3.0 mph). 
+ *       Wind Chill Temperature is officially defined for temperatures at or below 10 °C (50 °F) 
+ *       and wind speeds above 4.8 kilometres per hour (3.0 mph). 
  */
+function windchill(temp, speed){
 
-let t = parseInt(document.getElementById("temp").innerHTML);
-let s = parseInt(document.getElementById("speed").innerHTML);
+let t = temp;
+let s = speed;
 let tMax = 50;
 let sMin = 3;
 let f = 0;
@@ -23,3 +24,4 @@ if (t < tMax && s > sMin) {
     document.getElementById("chill").innerHTML = f;
 }
 //console.log("Current Temp = " + t + ", Wind Speed = " + s + ", Wind Chill = " + f)
+}
