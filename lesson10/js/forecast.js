@@ -41,20 +41,28 @@ fetch(forecastAPI)
     .then((jsObject) => {
         //console.log(jsObject);
 
-        let tablerow = document.getElementsByTagName('td');
+        let tablerow = document.getElementsByClassName('tablerow');
+        let tablehead = document.getElementsByClassName('forehead');
         let x = 0
         for (i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.substring(11, 19) == "18:00:00" && x < tablerow.length) {
+                
+                //Temperature
                 let text = document.createElement('p')
                     text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
+                //Weather Icon
                 let icon = jsObject.list[i].weather[0].icon;
                 let image = document.createElement('img');
                 let desc = jsObject.list[i].weather[0].description
                 image.setAttribute('src', "http://openweathermap.org/img/wn/" + icon + ".png");
                 image.setAttribute('alt', desc);
+                //fill table            
                 tablerow[x].appendChild(image);
                 tablerow[x].appendChild(text);
-
+                //Table header
+                let day = new Date(jsObject.list[i].dt_txt.substring(0, 11));
+                day = day.getDay();
+                tablehead[x].innerHTML = daynames[day];
                 x++
             }
         }
