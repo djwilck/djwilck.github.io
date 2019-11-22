@@ -54,7 +54,7 @@ fetch(forecastAPI)
                 let icon = jsObject.list[i].weather[0].icon;
                 let image = document.createElement('img');
                 let desc = jsObject.list[i].weather[0].description
-                image.setAttribute('src', "http://openweathermap.org/img/wn/" + icon + ".png");
+                image.setAttribute('src', "https://openweathermap.org/img/wn/" + icon + ".png");
                 image.setAttribute('alt', desc);
                 //fill table            
                 tablerow[x].appendChild(image);
