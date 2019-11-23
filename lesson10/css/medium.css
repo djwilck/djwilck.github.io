@@ -157,7 +157,9 @@
 
     .contact img {
         width: 100%;
-        max-width: 450px;
+        max-width: 415px;
+        border: 1px solid #182944;
+        border-radius: 10px;
     }
 
     .contact p {
