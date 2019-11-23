@@ -46,10 +46,10 @@ fetch(forecastAPI)
         let x = 0
         for (i = 0; i < jsObject.list.length; i++) {
             if (jsObject.list[i].dt_txt.substring(11, 19) == "18:00:00" && x < tablerow.length) {
-                
+
                 //Temperature
                 let text = document.createElement('p')
-                    text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
+                text.innerHTML = jsObject.list[i].main.temp + " &#176;F";
                 //Weather Icon
                 let icon = jsObject.list[i].weather[0].icon;
                 let image = document.createElement('img');
@@ -67,3 +67,34 @@ fetch(forecastAPI)
             }
         }
     });
+
+
+
+
+/*
+ * f = 35.74 + 0.6215t - 35.75s^0.16 + 0.4275ts^0.16
+ *  t = current temp in F
+ *  s = wind speed in MPH
+ *  f = wind chill in F
+ *       Wind Chill Temperature is officially defined for temperatures at or below 10 °C (50 °F) 
+ *       and wind speeds above 4.8 kilometres per hour (3.0 mph). 
+ */
+function windchill(temp, speed) {
+
+    let t = temp;
+    let s = speed;
+    let tMax = 50;
+    let sMin = 3;
+    let f = 0;
+
+    if (t < tMax && s > sMin) {
+        f = 35.74 + (0.6215 * t) - (35.75 * Math.pow(s, 0.16)) + (0.4275 * t * Math.pow(s, 0.16));
+        f = Math.round(f);
+
+        document.getElementById("chill").innerHTML = f + "&#176;F";
+    } else {
+        f = "N/A";
+        document.getElementById("chill").innerHTML = f;
+    }
+    //console.log("Current Temp = " + t + ", Wind Speed = " + s + ", Wind Chill = " + f)
+}
