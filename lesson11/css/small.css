@@ -9,7 +9,7 @@ body {
 }
 
 
-header,
+header a,
 footer {
     background-color: #6DBAA3;
     color: #182944;
@@ -20,13 +20,14 @@ footer {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: .8rem;
+    text-decoration: none;
 }
 
-header {
+header a{
     padding: 10px;
 }
 
-header img {
+header a img {
     width: 75px;
     height: auto;
     border: 1px solid #182944;
@@ -35,7 +36,7 @@ header img {
 
 }
 
-header h1 {
+header a h1 {
     margin: 0;
 
 }

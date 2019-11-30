@@ -16,13 +16,15 @@
 </head>
 
 <body>
-    <div id="banner"></div>
+    
     <header>
-        <img src="images/fww-logo-sized.png" alt="logo for Foul Weather Warning">
-        <div id="headertext">
-            <h1>Foul Weather Warning</h1>
-            <div id="motto">We'll keep our eye on the weather!</div>
-        </div>
+            <a href="index.html">
+                    <img src="images/fww-logo-sized.png" alt="logo for Foul Weather Warning">
+                    <div id="headertext">
+                        <h1>Foul Weather Warning</h1>
+                        <div id="motto">We'll keep our eye on the weather!</div>
+                    </div>
+                </a>
     </header>
     <nav>
         <ul class="navigation">
@@ -90,12 +92,18 @@
                 dolor sit amet consectetur adipiscing elit duis tristique.<br>
                 <a href="#">Click here to view the rest of the article.</a></p>
         </div>
+        <div class="contentbox local-events center">
+                
+            </div>
         <div class="contentbox contact">
             <div class="leftcol">
                 <img src="images/contact-map.jpg" alt="Map of Idaho - placeholder image">
             </div>
             <section class="rightcol">
                 <h3>Contact Information</h3>
+                <p>
+                        Our office is in Preston, Idaho.
+                    </p>
                 <p>
                     <span class="bold">Foul Weather Warning</span> <br>
                     30 N 1st E <br> Preston, ID 83263
@@ -119,10 +127,10 @@
 
     </footer>
     <script src="js/script.js"></script>
-    <script src="js/banner.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script src="js/forecast.js"></script>
     <script src="js/lazyload.js" defer></script>
+    <script src="js/events.js"></script>
 
     <script>
         WebFont.load({
