@@ -1,0 +1,61 @@
+@media only screen and (min-width: 37.5em) {
+
+    /* ----- body ----- */
+
+    /* ----- header ----- */
+
+
+    /* ----- nav ----- */
+    .navigation {
+        flex-flow: row;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    .navigation li a {
+        border: none;
+    }
+
+    .navigation li a:hover {
+        background-color: rgba(255, 255, 255, .5);
+    }
+
+    .navigation .subNav {
+        display: none;
+        background-color: rgba(130, 226, 157, .8);
+    }
+
+    .subNavigate:hover .subNav {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navigation .subNav {
+        position: absolute;
+        width: 20%;
+    }
+
+    /* ----- main ----- */
+    main {
+        width: 85%;
+
+    }
+
+    /* ----- form ----- */
+
+
+
+    /* ----- footer ----- */
+    footer {
+        width: 85%;
+    }
+
+}

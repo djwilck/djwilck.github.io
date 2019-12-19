@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Oxygen:400,700&display=swap');
+
+/* ----- body ----- */
+body {
+    background-color: #fffed3;
+    color: #23292e;
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+/* ----- header ----- */
+header {
+    background-color: #f0b48c;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/* ----- nav ----- */
+nav {
+    background-color: #82e29d;
+    text-align: center;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.navigation,
+.subNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+.navigation li,
+.subNav {
+    display: none;
+}
+
+#menu {
+    display: block;
+}
+
+.responsive li,
+.subResponsive {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.8rem 2%;
+    text-decoration: none;
+    color: #23292e;
+    border-top: 1px solid rgba(0, 0, 0, 0.3)
+}
+
+.navigation li a.active {
+    color: #3e4044;
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.navigation .subResponsive {
+    background-color: rgba(255, 255, 255, .1);
+    width: 90%;
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* ----- main ----- */
+main {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+}
+
+main h2 {
+    padding: 0 20px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main div {
+    border: 1px solid #23292e;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+main div h3 {
+    margin: 0;
+    font-family: 'Oxygen', sans-serif;
+}
+
+main img {
+    padding: 10px 0;
+}
+/* ----- form ----- */
+
+
+
+/* ----- footer ----- */
+footer {
+    background-color: #f0b48c;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 95%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
