@@ -24,22 +24,80 @@
     </header>
     <nav>
         <ul class="navigation">
-            <li id="menu"><a href="#" onclick="toggleMenu(menu)">&#9776; Menu</a></li>
+            <li id="menu"><a href="#" onclick="toggleMenu('menu')">&#9776; Menu</a></li>
             <li><a href="index.html">Home</a></li>
             <li><a href="temple.html">Temples</a></li>
             <li><a class="active" href="reservation.html">Reservations</a></li>
-            <li class="subNavigate"><a href="services.html" >Services</a>
-            <ul class="subNav">
-                <li><a href="reception.html">Reception</a></li>
-                <li><a href="missionary.html">Full-Time Missionary</a></li>
-            </ul></li>
+            <li class="subNavigate"><a href="services.html">Services</a>
+                <ul class="subNav">
+                    <li><a href="reception.html">Reception</a></li>
+                    <li><a href="missionary.html">Full-Time Missionary</a></li>
+                </ul>
+            </li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
     <main>
         <h2>Reservations</h2>
-        <div>
-            
+        <div class="contentbox">
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>
+                        Your Stay
+                    </legend>
+                    <label class="top"> Temple to Visit* <select name="temple" required onchange="disable()">
+                            <option id="default" value="">Select a Temple... &#9662;</option>
+                            <option value="rexburg">Rexburg Idaho</option>
+                            <option value="dallas">Dallas Texas</option>
+                            <option value="seattle">Seattle Washington</option>
+                            <option value="atlanta">Atlanta Georgia</option>
+                        </select></label>
+                    <label class="top">Check-In Date <input type="date" name="check-in"></label>
+                    <label class="top">Check-out Date <input type="date" name="check-out"></label>
+                    <label class="top"> Number of Travelers <input type="number" value=1 name="group size" min=1
+                            max=10></label>
+                    <div>If you need to book for more than 10 people, please call the Inn directly for room
+                        availability.</div>
+                    <label class="top"> Number of Rooms Needed* <input type="number" value=1 name="rooms" min=1 max=10
+                            required></label>
+                    <label class="top"> Room Preference <select name="room">
+                            <option id="default" value="">Select an option... &#9662;</option>
+                            <option value="economy">Economy - 1 Twin Bed</option>
+                            <option value="standard">Standard - 1 Queen Bed</option>
+                            <option value="dual">Dual - 2 Twin Beds</option>s
+                            <option value="dual-delux">Dual Delux - 2 Queen Beds</option>
+                            <option value="suite">Suite - 1 King Bed</option>
+                        </select></label>
+                    <div>Will you need transportation from an airport/public transit station?</div>
+                    <label class="sbs"><input type="radio" name="danger" value="yes"> Yes</label>
+                    <label class="sbs"><input type="radio" name="danger" value="maybe"> Maybe</label>
+                    <label class="sbs"><input type="radio" name="danger" value="no"> No</label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Contact Information for Booking
+                    </legend>
+                    <label class="top"> Full Name* <input type="text" name="fullName" pattern="[A-Za-z\s]{5,}"
+                            required></label>
+                    <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top"> Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
+                    <label class="top"> Where are you travelling from? <input type="text" name="hometown"
+                            placeholder="City, State/Country"></label>
+                </fieldset>
+                <fieldset>
+                    <legend>
+                        Comments
+                    </legend>
+                    <label class="top">Needed Accommodations <textarea name="accommodations"></textarea></label>
+                    <label class="top">Special Requests <textarea name="comment"></textarea></label>
+
+                </fieldset>
+
+                <input type="submit" value="Request a quote" class="submitBtn">
+                <div>We will review your request and send you an email with our availabilty and the estimated cost for
+                    your stay. </div>
+            </form>
         </div>
     </main>
     <footer>

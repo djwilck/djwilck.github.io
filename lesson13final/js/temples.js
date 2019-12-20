@@ -35,7 +35,7 @@ fetch(templeJSON)
                 name.textContent = temples[i].name;
 
                 h4Det.appendChild(aDet);
-                h4Det.classList.add("showDetail");
+                h4Det.classList.add("button");
                 aDet.setAttribute('onclick', "toggleMenu('details"+i+"')")
                 aDet.innerHTML = "Show Temple Details";
 
@@ -52,7 +52,7 @@ fetch(templeJSON)
                     };
                 
                 h4Ord.appendChild(aOrd);
-                h4Ord.classList.add("showDetail");
+                h4Ord.classList.add("button");
                 aOrd.setAttribute('onclick', "toggleMenu('ordinance"+i+"')")
                 aOrd.innerHTML = "Show Ordinance Schedules";
 
@@ -74,7 +74,7 @@ fetch(templeJSON)
                     };
 
                 h4Clo.appendChild(aClo);
-                h4Clo.classList.add("showDetail");
+                h4Clo.classList.add("button");
                 aClo.setAttribute('onclick', "toggleMenu('closure"+i+"')")
                 aClo.innerHTML = "Show Temple Closure";
 

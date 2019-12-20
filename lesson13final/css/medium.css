@@ -29,7 +29,7 @@
 
     .navigation .subNav {
         display: none;
-        background-color: rgba(130, 226, 157, .8);
+        background-color: rgba(130, 226, 157, .9);
     }
 
     .subNavigate:hover .subNav {
@@ -48,17 +48,56 @@
         width: 85%;
 
     }
+
     .contentbox {
-        display: block;
+        display: flex;
         overflow: hidden;
         padding-bottom: 1%;
     }
-    
+
+    .temples article {
+        display: block;
+    }
+
     .right {
         float: right;
         width: 40%;
         padding: 0 0 1% 2%;
         max-width: 500px;
+    }
+
+    .temples article {
+        padding: 20px 10%;
+    }
+
+    .sidebyside {
+        display: flex;
+    }
+
+    .spotlight,
+    .temples {
+        display: block;
+    }
+
+    .right-banner {
+        float: right;
+        width: 50%;
+    }
+
+    .leftcol,
+    .rightcol {
+        width: 48%;
+        flex: 1 1 auto;
+        text-align: left;
+
+    }
+
+    .leftcol {
+        margin-right: 2.5px;
+    }
+
+    .rightcol {
+        margin-left: 2.5px;
     }
 
     /* ----- form ----- */

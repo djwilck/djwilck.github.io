@@ -95,9 +95,8 @@ function toggleMenu(part) {
             document.getElementsByClassName("closure3")[0].classList.toggle("hide");
             break;
         case 'close':
-            for(z=0; z<document.getElementsByTagName('section').length;z++){
-                document.getElementsByTagName('section')[z].classList.add("hide");
-                ;
+            for (z = 0; z < document.getElementsByTagName('section').length; z++) {
+                document.getElementsByTagName('section')[z].classList.add("hide");;
             }
             break;
         default:
