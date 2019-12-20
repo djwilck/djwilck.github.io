@@ -59,7 +59,8 @@
                 "Thursday, 24 December 2020 - Friday, 25 December 2020",
                 "Thursday, 31 December 2020 - Friday, 1 January 2021"
             ],
-            "photo": "rexburg.jpg"
+            "photo": "rexburg.jpg",
+            "weather": "5605242"
         },
         {
             "name": "Dallas Texas Temple",
@@ -115,7 +116,8 @@
                 "Thursday, 24 December 2020 - Friday, 25 December 2020",
                 "Thursday, 31 December 2020"
             ],
-            "photo": "dallas.jpg"
+            "photo": "dallas.jpg",
+            "weather": "4684888"
         },
         {
             "name": "Seattle Washington Temple",
@@ -172,7 +174,8 @@
                 "Tuesday, 24 November 2020 - Thursday, 26 November 2020",
                 "Thursday, 24 December 2020 - Saturday, 26 December 2020"
             ],
-            "photo": "seattle.jpg"
+            "photo": "seattle.jpg",
+            "weather": "5809844"
         },
         {
             "name": "Atlanta Georgia Temple",
@@ -224,7 +227,8 @@
                 "Thursday, 24 December 2020 - Friday, 25 December 2020",
                 "Thursday, 31 December 2020"
             ],
-            "photo": "atlanta.jpg"
+            "photo": "atlanta.jpg",
+            "weather": "4180439"
         }
     ]
 }
