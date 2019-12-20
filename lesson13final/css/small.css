@@ -6,6 +6,15 @@ body {
     color: #23292e;
     font-family: 'Karla', sans-serif;
 }
+.bold {
+    font-weight: bold;
+}
+.center{
+    text-align: center
+}
+.italic {
+    font-style: italic;
+}
 
 
 
@@ -75,7 +84,7 @@ nav {
 /* ----- main ----- */
 main {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 960px;
     width: 95%;
 }
 
@@ -84,22 +93,52 @@ main h2 {
     font-family: 'Oxygen', sans-serif;
 }
 
-main div {
+.contentbox {
     border: 1px solid #23292e;
     border-radius: 10px;
     padding: 20px;
     margin-top: 10px;
     background-color: rgba(255, 255, 255, .5);
+    display: flex;
+    flex-direction: column;
 }
 
-main div h3 {
+.temples h3 {
+    order: -1
+}
+
+.right {
+    width: 100%;
+}
+
+.contentbox h3 {
     margin: 0;
     font-family: 'Oxygen', sans-serif;
+}
+.hide {
+    display: none;
+}
+
+.showDetail a{
+    background-color:#dcc845;
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+}
+.showDetail {
+    padding: 5px 5px 5px 0;
 }
 
 main img {
     padding: 10px 0;
 }
+
+.closeAll {
+    padding-left: 20px;
+}
+
+
+
 /* ----- form ----- */
 
 
