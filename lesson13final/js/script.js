@@ -106,17 +106,3 @@ function toggleMenu(part) {
     }
 
 }
-
-let y = true;
-
-function disable() {
-    let x = document.getElementById("default");
-    if (y == true) {
-        x.setAttribute("disabled", "");
-        y = false;
-    }
-}
-
-function adjustRating(rating) {
-    document.getElementById("ratingvalue").innerHTML = rating;
-}
