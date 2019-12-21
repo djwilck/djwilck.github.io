@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <img src="images/placeholder-wide.png" width="120" alt="logo for Temple Inn & Suites">
+        <img class="logo" src="images/logo.png" alt="logo for Temple Inn & Suites">
         <div>
             <h1>Temple Inn & Suites</h1>
         </div>
@@ -37,7 +37,7 @@
             <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="service">
         <h2>Services: Full-Time Missionary</h2>
         <div class="contentbox">
             <h3>We help with mission temple trips</h3>
@@ -55,6 +55,7 @@
         </div>
         <div class="contentbox">
             <h3>We can accomodate full-time temple missionaries</h3>
+            <img class="right" src="images/missionary.jpg" alt="One of the kitchenette rooms for full-time temple missionaries. ">
             <p>
                 Have you been assigned to serve as a full-time temple missionary? Do you have full-time temple
                 missionaries serving in your mission? Are you stressed about finding mission-approved housing near the
@@ -66,6 +67,26 @@
                 rented out to Mission Office Personel, guaranteeing that they will be available for the missionaries who
                 need it.
             </p>
+        </div>
+        <div class="contentbox">
+            <h3>Send us an email</h3>
+            <form method="GET" action="thanks.html">
+                <fieldset>
+                    <legend>
+                        Compose your message
+                    </legend>
+                    <label class="top"> Full Name* <input type="text" name="fullName" pattern="[A-Za-z\s]{5,}"
+                            required></label>
+                    <label class="top"> Email* <input type="email" name="email" placeholder="someone@gmail.com"
+                            required></label>
+                    <label class="top"> Subject <input type="text" name="subject"></label>
+                    <label class="top"> Mission <input type="text" name="mission"></label>
+                    <label class="top">Your Message* <textarea name="email message" required></textarea></label>
+                </fieldset>
+
+                <input type="submit" value="Send your message" class="submitBtn">
+                <div>We will do our best to respond to you by the next business day. </div>
+            </form>
         </div>
     </main>
     <footer>

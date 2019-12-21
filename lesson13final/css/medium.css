@@ -55,7 +55,7 @@
         padding-bottom: 1%;
     }
 
-    .temples article {
+    .temples article, .service .contentbox {
         display: block;
     }
 
@@ -68,6 +68,7 @@
 
     .temples article {
         padding: 20px 10%;
+        
     }
 
     .sidebyside {
@@ -86,7 +87,7 @@
 
     .leftcol,
     .rightcol {
-        width: 48%;
+        width: 100%;
         flex: 1 1 auto;
         text-align: left;
 
@@ -98,6 +99,10 @@
 
     .rightcol {
         margin-left: 2.5px;
+    }
+    
+    .mid {
+        align-self: center;
     }
 
     /* ----- form ----- */

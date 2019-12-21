@@ -28,9 +28,17 @@ header {
     background-color: #f0b48c;
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 10px;
     margin: 0;
     font-family: 'Oxygen', sans-serif;
+}
+
+.logo {
+    border: 1px solid #23292e;
+    border-radius: 10px;
+    margin-right: 10px;
+    max-width: 100px;
 }
 
 /* ----- nav ----- */
@@ -110,6 +118,10 @@ main h2 {
 
 .temples h3 {
     order: -1
+}
+
+.sidebyside .leftcol, .sidebyside .rightcol {
+    text-align: center;
 }
 
 .right {

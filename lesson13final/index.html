@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <img src="images/placeholder-wide.png" width="120" alt="logo for Temple Inn & Suites">
+        <img class="logo" src="images/logo.png" alt="logo for Temple Inn & Suites">
         <div>
             <h1>Temple Inn & Suites</h1>
         </div>
@@ -41,28 +41,35 @@
         <h2>Welcome</h2>
         <div class="contentbox spotlight">
             <h3>Temple Spotlight: Rexburg, ID</h3>
-            <img class="right-banner" src="images/placeholder-wide.png" alt="">
+            <picture class="right-banner">
+                <source media="(max-width: 599px)" srcset="images/rexburgSpot-S.jpg">
+                <source media="(min-width: 600px) and (max-width:1039px)" srcset="images/rexburgSpot-M.jpg">
+                <source media="(min-width: 1040px)" srcset="images/rexburgSpot-L.jpg">
+                <img src="images/rexburgSpot-L.jpg" alt="Side view of the Rexburg Temple">
+            </picture>
+
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Tincidunt dui ut ornare lectus sit amet est placerat in. Congue mauris rhoncus
-                aenean vel elit scelerisque. Bibendum ut tristique et egestas quis ipsum suspendisse. Laoreet sit amet
-                cursus sit amet dictum sit amet justo. Ut porttitor leo a diam sollicitudin. Amet nisl purus in mollis
-                nunc. Vel eros donec ac odio. Imperdiet massa tincidunt nunc pulvinar. Ut consequat semper viverra nam.
-                Amet venenatis urna cursus eget nunc scelerisque viverra. Eu feugiat pretium nibh ipsum consequat nisl
-                vel. Purus ut faucibus pulvinar elementum integer.<br>
+                The Rexburg Idaho temple was built to accomodate the population of students at BYU-Idaho. The temple was
+                dedicated in 2008 and since then has accomodated numberless students throughout their university
+                experience.
+                Many of the temple workers are students who volunteer their time while also taking classes.<br><br>
+                The temple contains two endowment rooms and many sealing rooms. They have a large focus on accepting
+                walk-in patrons throughout the day. Clothing rental is available, however there is no cafeteria in the
+                temple. Feel free to come have lunch or dinner with us after your session!<br>
                 <a href="temple.html">Learn more on our Temple Page</a>
             </p>
         </div c>
         <div class="contentbox temples">
+            <h3>Start your reservation!</h3>
             <div class="sidebyside">
-                <section class="leftcol">
-                    <h3>Start your reservation!</h3><br><br>
-                    <p>Lehi Dwelt in a tent, but you don't have to!</p>
+                <section class="leftcol mid">
+
+                    <h4>Lehi Dwelt in a tent, but you don't have to!</h4>
                     <input class="button center" type="button" onclick="window.location.href = 'reservation.html'"
                         value="Reserve your stay"><br>
                 </section>
                 <section class="rightcol">
-                    <img class="" src="images/placeholder-wide.png" alt="">
+                    <img class="" src="images/RexburgRes.jpg" alt="The rexburg temple in the evening. ">
                 </section>
             </div>
         </div>
