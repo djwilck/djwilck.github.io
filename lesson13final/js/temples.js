@@ -91,7 +91,7 @@ fetch(templeJSON)
             };
 
             image.setAttribute('src', "images/" + temples[i].photo);
-            image.setAttribute('alt', temples[i].name);
+            image.setAttribute('alt', "outside view of" + temples[i].name);
 
             details.appendChild(p1);
             details.appendChild(p2);
